@@ -1,0 +1,50 @@
+/* Include your CSS rules here */
+
+html, body {
+	background-color: #111;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+#albumCoverView,
+#albumCoverViewList {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.album {
+	float: left;
+	width: 138px;
+	height: 138px;
+	padding: 30px;
+}
+
+.album div{
+	width: 138px;
+}
+
+.album .title {
+	padding-top: 6px;
+}
+
+.album .title div {
+	color: #999;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.album .title .artistTitle {
+	font-weight: bold;
+	color: #bbb;
+}
+
+.sp-image-style-inset .sp-image-inset {
+	box-shadow:0px 0px 5px 2px #111 inset;
+}
